@@ -205,7 +205,7 @@ header{
 
 .developments-imgs-container{
     display: flex;
-    width: 800px;
+    width: 850px;
     justify-content: center;
     flex-wrap: wrap;    
 }
