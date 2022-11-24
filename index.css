@@ -1,5 +1,17 @@
+            
+            
+            /*GENERAL*/
+
+
+main{
+
+    width: 100%;
+}
 
 body{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
     font-family: sans-serif;
     color: #373737;
     margin: 0;
@@ -41,7 +53,7 @@ header{
 }
 
 
-                /*MAIN BANNER*/
+                /*BANNER*/
 
 .main-banner img{
     width: 100%;
@@ -124,6 +136,7 @@ header{
                 /*PACKS*/
 
 .packs-container{
+    display: flex;
     position: relative;
     padding: 20px;
 }
@@ -159,7 +172,8 @@ header{
 }
 
 
-        /*DEVELOPMENTS*/
+            /*DEVELOPMENTS*/
+
 
 .developments-container{
     width: 100%;
@@ -198,14 +212,18 @@ header{
 
 .developments-imgs{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .developments-imgs-principal{
     margin: 20px;
     width: 800px;
-    
 }
 
+.developments-img{
+    padding: 25px;
+}
 
 
 
@@ -251,6 +269,7 @@ header{
     color:#373737;
     background-color: #e1e1e1e1;
     padding:10px;
+    width: 100%;
 
 }
 
